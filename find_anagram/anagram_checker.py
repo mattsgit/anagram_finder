@@ -1,3 +1,6 @@
+import sys
+
+
 class AnagramCheck:
     def __init__(self):
         pass
@@ -33,3 +36,11 @@ class AnagramTester:
                 anagram_checker.is_anagram(line_list[0][1:], line_list[1][:-1]), 0) + 1
 
         return results
+
+def main():
+    if len(sys.argv) == 3:
+        checker = AnagramCheck
+        print checker.is_anagram(sys.argv[1],sys.argv[2])
+
+if __name__ == '__main__':
+    main()
