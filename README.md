@@ -1,4 +1,4 @@
-# anagram_finder
+# Anagram Finder
 
 ## Synopsis
 
@@ -6,11 +6,11 @@ Compares anagrams from command line or file. Drop files in anagram_files folder 
 
 ## Installation
 
-```git clone https://github.com/mattsgit/anagram_finder.git && cd anagram_finder && python test_summary.py``` to see files generated and tested
+To Install and see files generated/tested: ```git clone https://github.com/mattsgit/anagram_finder.git && cd anagram_finder && python test_summary.py```
 
 ## Tests
 
-Inside find anagram folder you can run ```python anagram_checker.py "string1" "string2"``` for single checks
+Inside the find_anagram folder you can run ```python anagram_checker.py "string1" "string2"``` for single checks
 
 ## Contributors
 
