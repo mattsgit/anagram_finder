@@ -39,7 +39,7 @@ class AnagramTester:
 
 def main():
     if len(sys.argv) == 3:
-        checker = AnagramCheck
+        checker = AnagramCheck()
         print checker.is_anagram(sys.argv[1],sys.argv[2])
 
 if __name__ == '__main__':
