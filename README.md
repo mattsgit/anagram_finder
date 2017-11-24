@@ -6,7 +6,7 @@ Compares anagrams from command line or file. Drop files in anagram_files folder 
 
 ## Installation
 
-```git clone https://github.com/mattsgit/anagram_finder.git; cd anagram_finder; python test_summary.py``` to see files generated and tested
+```git clone https://github.com/mattsgit/anagram_finder.git && cd anagram_finder && python test_summary.py``` to see files generated and tested
 
 ## Tests
 
