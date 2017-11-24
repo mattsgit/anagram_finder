@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Compares anagrams from command line or file. Drop files in anagram_files folder to have them tested by running test_summary.py
+Compares anagrams from command line or file. Drop files in ```anagram_files``` folder to have them tested by running ```test_summary.py```
 
 ## Installation
 
