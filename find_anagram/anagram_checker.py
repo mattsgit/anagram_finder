@@ -6,6 +6,7 @@ class AnagramCheck:
         pass
 
     def is_anagram(self, a, b):
+        # remove all non alphanum chars in string
         new_a = "".join([x for x in a.lower() if x.isalnum()])
         new_b = "".join([x for x in b.lower() if x.isalnum()])
         if len(new_a) != len(new_b):
